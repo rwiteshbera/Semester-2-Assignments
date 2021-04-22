@@ -11,7 +11,7 @@ int main()
     printf("Enter the length of three sides of a triangle in cm: ");
     scanf("%f %f %f",&a,&b,&c);
 
-    float s = (a+b+c)/2; // where s = semiperimeter
+    float s = (a+b+c)/2.0; // where s = semiperimeter
     float area = sqrt((s*(s- a)*(s-b)*(s-c)));
 
     printf("The are of the triangle is: %.2f sq.cm.\n",area);
